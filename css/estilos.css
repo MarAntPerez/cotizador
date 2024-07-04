@@ -269,3 +269,45 @@ h1{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
+
+/* Responsive - Media Queries */
+@media only screen and (max-width:750px){
+    .card{
+        width: 100%;
+    }
+
+    .caja-card{
+        width: 85%;
+    }
+
+    .card-wrapped{
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media only screen and (max-width:600px){
+    body{
+        padding: 16px;
+    }
+
+    h1{
+        margin: 0 0 16px 0;
+    }
+
+    .container{
+        padding: 0 16px;
+    }
+
+    .caja-card{
+        width: 80%;
+    }
+
+    .toggle-wrapper{
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    .tabs p{
+        font-size: 0.8rem;
+    }
+}
